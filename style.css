@@ -1,0 +1,79 @@
+p{
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;  
+  text-shadow: 1px 1px 1px #111111
+}
+
+body{
+  background-color: #000000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: #35b8b0;
+  height: 80px;
+  padding:20px;
+}
+
+footer{
+  clear: both;
+  background-color:#35b8b0;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px #111111
+}
+
+h1{
+  color: #35b8b0;
+  text-shadow: 1px 1px 1px #111111;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+#principal{
+  background-image: url('city.jpg');
+  background-size: 100%;
+  min-height: 400px;
+  padding:80px 0 0 0;
+  clear: both;
+  
+}
+
+#logo{
+  float: left;
+}
+
+#menu{
+  margin-top: 30px;
+  float: right;
+}
+
+#menu a{
+  padding: 52px 20px;
+  text-decoration: none;
+  color: #111;
+  text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+  background-color: #111;
+  color: #35b8b0;
+}
+
+.container{
+  width: 960px;
+  margin: auto;
+}
+
+.efeito{
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 80px 0 80px 0 ;
+}
